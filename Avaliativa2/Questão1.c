@@ -30,8 +30,8 @@ int main(){
         printf(" ");
       }
     }
-    
     printf("\n");
+    
     for (int i = 0; i < Tamanho; i++){
       X[i] = Y[i];
     }
