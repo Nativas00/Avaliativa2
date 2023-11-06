@@ -17,7 +17,6 @@ int main(){
       printf(" ");
     }
   }
-  
   printf("\n");
   
   while (Tamanho > 1){
