@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(){
     int X[4][4];
     int Y[4][4]; 
     int R[4][4];
     char Calculo[16];
 
-    for (int i = 0; i < 4; i++){
+    for(int i = 0; i < 4; i++){
         for (int j = 0; j < 4; j++){
             scanf("%d", &X[i][j]);
         }
     }
 
-    for (int i = 0; i < 4; i++){
+    for(int i = 0; i < 4; i++){
         for (int j = 0; j < 4; j++){
             scanf("%d", &Y[i][j]);
         }
