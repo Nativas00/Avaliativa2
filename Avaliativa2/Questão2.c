@@ -45,6 +45,9 @@ int main(){
   double PoderDoTime1 = CalcularPoderTotal(time1);
   double PoderDoTime2 = CalcularPoderTotal(time2);
 
+  printf("%s: %.2lf de forca\n", time1.nome, forcaTime1);
+  printf("%s: %.2lf de forca\n", time2.nome, forcaTime2);
+
   if (PoderDoTime1 > PoderDoTime2) {
     printf("%s eh mais forte\n", time1.Nome);
   } 
